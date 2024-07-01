@@ -181,3 +181,15 @@ Received Import Request.
   path: Assets/Materials/nagata1.mat
   artifactKey: Guid(c2ce8e9f466914174981f559b3b9aaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/nagata1.mat using Guid(c2ce8e9f466914174981f559b3b9aaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a82eae8fa02595d30a238784dae8207') in 0.131062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5761.369655 seconds.
+  path: Assets/nagata2.jpeg
+  artifactKey: Guid(1a4fbb7e13b934637996c33397976617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/nagata2.jpeg using Guid(1a4fbb7e13b934637996c33397976617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5647c372ab8b0d7a3086916f7ae7dfb6') in 0.540373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(8a1d66b49774f447a88248d2321d00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(8a1d66b49774f447a88248d2321d00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8ae27921962c4ba1678369cce0360e') in 0.036244 seconds 
