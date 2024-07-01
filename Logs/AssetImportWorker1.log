@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker1
 -projectPath
-/Users/gsp_tech2/cluster_cylinder
+/Users/gsp_tech/cluster_cylinder
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55783
-Successfully changed project path to: /Users/gsp_tech2/cluster_cylinder
-/Users/gsp_tech2/cluster_cylinder
+49681
+Successfully changed project path to: /Users/gsp_tech/cluster_cylinder
+/Users/gsp_tech/cluster_cylinder
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/gsp_tech2/cluster_cylinder
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 46.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/gsp_tech2/cluster_cylinder/Assets
+[Subsystems] Discovering subsystems at path /Users/gsp_tech/cluster_cylinder/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M2 (high power)
 Metal devices available: 1
@@ -69,50 +69,44 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56095
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: /Applications/Unity/Hub/Editor/2021.3.4f1/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.001573 seconds.
-Native extension for LinuxStandalone target not found
+Registered in 0.000843 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
-Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.52 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.453 seconds
+- Completed reload, in  0.438 seconds
 Domain Reload Profiling:
-	ReloadAssembly (453ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (438ms)
+		BeginReloadAssembly (46ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (327ms)
-			LoadAssemblies (66ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (71ms)
+			SetupTypeCache (67ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (208ms)
+			SetupLoadedEditorAssemblies (218ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (92ms)
+				InitializePlatformSupportModulesInManaged (97ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
+				RefreshPlugins (52ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (45ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
@@ -122,41 +116,39 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002312 seconds.
+Registered in 0.001252 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for AppleTV target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  0.690 seconds
+- Completed reload, in  0.813 seconds
 Domain Reload Profiling:
-	ReloadAssembly (691ms)
-		BeginReloadAssembly (166ms)
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (181ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (461ms)
-			LoadAssemblies (48ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (570ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (160ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (204ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (276ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (39ms)
-				ProcessInitializeOnLoadAttributes (140ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -166,12 +158,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (39.2 KB). Loaded Objects now: 3520.
-Memory consumption went from 100.2 MB to 100.1 MB.
-Total: 3.156292 ms (FindLiveObjects: 0.163375 ms CreateObjectMapping: 0.065000 ms MarkObjects: 2.866417 ms  DeleteObjects: 0.058333 ms)
+Unloading 3758 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (40.2 KB). Loaded Objects now: 4220.
+Memory consumption went from 116.6 MB to 116.5 MB.
+Total: 2.305250 ms (FindLiveObjects: 0.156208 ms CreateObjectMapping: 0.071250 ms MarkObjects: 2.024167 ms  DeleteObjects: 0.053041 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -185,7 +177,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 49240.579671 seconds.
-  path: Assets/New Material.mat
-  artifactKey: Guid(8a1d66b49774f447a88248d2321d00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Material.mat using Guid(8a1d66b49774f447a88248d2321d00dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d990a4a691864b84007ef0580b2c49') in 0.396211 seconds 
+  Time since last request: 717.334915 seconds.
+  path: Assets/Materials/nagata1.mat
+  artifactKey: Guid(c2ce8e9f466914174981f559b3b9aaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/nagata1.mat using Guid(c2ce8e9f466914174981f559b3b9aaac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a82eae8fa02595d30a238784dae8207') in 0.131062 seconds 
